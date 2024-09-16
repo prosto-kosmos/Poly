@@ -30,5 +30,6 @@ onMounted(async () => {
 <style scoped>
 .report-departments {
   height: 100%;
+  overflow: auto;
 }
 </style>

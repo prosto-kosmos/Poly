@@ -42,12 +42,10 @@ import ReportDepartmentTreeComponent from 'components/reports/components/ReportD
 
 .report-department-tree {
   min-width: 30%;
-  overflow: auto;
 }
 
 .report-stepper {
   min-width: 40%;
-  overflow: auto;
 }
 
 .report-preview {

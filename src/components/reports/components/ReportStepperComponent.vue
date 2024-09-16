@@ -1,5 +1,5 @@
 <template>
-  <q-list bordered class="rounded-borders report-stepper">
+  <q-list bordered class="rounded-borders report-stepper-container">
     <div v-for="(category, idx) in reportCategories" :key="idx">
       <!-- TODO: :default-opened="idx === 0" -->
       <q-expansion-item group="category-group">
@@ -26,7 +26,8 @@ import ReportCategoryCardComponent from './ReportCategoryCardComponent.vue';
 </script>
 
 <style scoped>
-.report-stepper {
+.report-stepper-container {
   height: 100%;
+  overflow: auto;
 }
 </style>
